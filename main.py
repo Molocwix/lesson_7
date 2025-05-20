@@ -1,3 +1,5 @@
-print("Hello World")
-a = int(input("Введіть число"))
-print(a * a)
+try:
+    x=input()
+    print(int(x)*int(x))
+except ValueError:
+    print("Vvedene ne tsile chyslo")
